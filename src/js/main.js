@@ -6,6 +6,8 @@ const disclaimer = document.querySelector(".disclaimer > a");
 disclaimer.href = parkData.url;
 disclaimer.innerHTML = parkData.fullName;
 
+const pageTitle = document.querySelector("title");
+pageTitle.innerHTML = `${parkData.name} | National Park Service`;
 const heroBannerContent = document.querySelector(".hero-banner__content");
 heroBannerContent.innerHTML = parkInfoTemplate(parkData);
 

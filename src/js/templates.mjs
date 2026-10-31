@@ -48,11 +48,11 @@ export function alertTemplate(alert) {
 }
 
 export function visitorCenterTemplate(center) {
-	return `<div class="visitor-center">
+	return `<li class="visitor-center">
 	<h3>${center.name}</h3>
 	<p>${center.description}</p>
 	<p>${center.directionsInfo}</p>
-	</div>`;
+	</li>`;
 }
 
 export function activitiesTemplate(activity) {

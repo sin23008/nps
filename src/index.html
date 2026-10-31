@@ -53,14 +53,29 @@
 						</svg>
 						<span class="visually-hidden">Search</span>
 					</a>
-					<button id="global-nav-toggle">
-						<svg class="icon">
-							<use xlink:href="/images/sprite.symbol.svg#menu"></use>
-						</svg>
+					<button id="global-nav-toggle" class="global-nav__toggle" aria-expanded="false" aria-label="Open Menu">
+						<div class="global-nav__toggle--closed">
+							<svg class="icon">
+							<use
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								xlink:href="/images/sprite.symbol.svg#menu"
+							></use>
+							</svg>
+							<span class="visually-hidden">Open</span>
+						</div>
+						<div class="global-nav__toggle--open">
+							<svg class="icon">
+							<use
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								xlink:href="/images/sprite.symbol.svg#close"
+							></use>
+							</svg>
+							Close 
+						</div>
 						<span class="visually-hidden">Open</span> MENU
 					</button>
 				</div>
-				<!-- <nav class="global-nav">
+				<nav class="global-nav">
 					<h2 class="global-nav__section-heading">Explore this Park</h2>
 					<ul class="global-nav__list">
 						<li>
@@ -77,7 +92,7 @@
 							</div>
 						</li>
 					</ul>
-				</nav> -->
+				</nav>
 			</section>
 			<section id="park-header">
 					<div class="hero-banner">

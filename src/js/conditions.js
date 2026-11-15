@@ -1,6 +1,6 @@
 import { getParkData, getParkAlerts, getVisitorCenterData } from "./parkService.mjs";
 import { alertTemplate, visitorCenterTemplate } from "./templates.mjs";
-import { setHeaderFooter } from "./setHeaderFooter.mjs";
+import setHeaderFooter from "./setHeaderFooter.mjs";
 import "../css/style.css";
 import "../css/conditions.css";
 
